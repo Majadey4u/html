@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  overflow: hidden;
+}
+
+.port{
+  float: right;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+}
+/* navigattion style */
+nav{
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px  0;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 8px 18px;
+  font-family: sans-serif;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(12, 1, 5);
+  font-weight: bold;
+  padding: 10px 12px;
+  transition: all 3s linear;
+}
+nav ul li a:hover {
+  background-color: black;
+  color: white;
+  box-shadow: o o 10px white;
+}
+ nav ul li a.active {
+opacity: 0.7;
+}
+/* navigation tag styling ends here */
+
+.details{
+  margin-left: 8;
+  margin-top: 13%;
+}
+.details h1{
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+span{
+  color: orange;
+}
+
+.details p{
+   color: #555;
+  line-height : 22px;
+}
+
+.details a{
+  background: #212121;
+  padding: 10px 18px; 
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.details{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+/* footer styling */
+.belownav{
+  height: 90px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  font-size: 10px;
+  bottom: 0;
+}
+
+.belownav h2{
+  height: 50px;
+  color: palevioletred;
+  text-align: center;
+  /* margin-bottom: 10px; */
+  /* // padding: 10px 12px; */
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  /* // padding-top: 60px; */
+  /* position: relative; */
+  /* left: 40%; */
+}
